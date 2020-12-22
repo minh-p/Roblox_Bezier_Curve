@@ -1,0 +1,37 @@
+{
+  "name": "tutorial",
+  "tree": {
+      "$className": "DataModel",
+
+      "ReplicatedStorage": {
+          "$className": "ReplicatedStorage",
+          "ClientModules": {
+            "$className": "Folder",
+            "$path": "src/Client/ClientModules"
+          }
+      },
+
+      "StarterPlayer": {
+          "$className": "StarterPlayer",
+
+          "StarterPlayerScripts": {
+              "$className": "StarterPlayerScripts",
+              "$path": "src/Client/ClientScripts"
+          }
+      },
+
+      "ServerScriptService": {
+          "$className": "ServerScriptService",
+
+          "ServerScripts": {
+            "$className": "Folder",
+            "$path": "src/Server/ServerScripts"
+          },
+
+          "ServerModules": {
+            "$className": "Folder",
+            "$path": "src/Server/ServerModules"
+          }
+    }
+  }
+}
